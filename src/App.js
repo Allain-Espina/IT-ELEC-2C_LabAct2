@@ -4,8 +4,8 @@ import Header from "./Header";
 import Templates from "./Templates";
 import Documents from "./Documents";
 
-//display: grid;
-// grid-template-coloums: repeat(4, 300px)
+//CHECK Documents.js AND Templates.js
+//Turn 'state' from true to false & vice versa to see conditional rendering results
 
 function App() {
   return (

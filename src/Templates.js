@@ -7,8 +7,10 @@ import { RiExpandUpDownLine } from "react-icons/ri";
 import { SlOptionsVertical } from "react-icons/sl";
 
 function Templates() {
+  let state = true;
+
   return (
-    <div className="templates">
+    <div className={state ? "templates" : "templatesAlt"}>
       <div className="tempHeading">
         <div className="tempText">
           <div>Start a new document</div>

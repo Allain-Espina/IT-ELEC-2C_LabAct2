@@ -102,6 +102,13 @@ body {
   width: 100%;
 }
 
+.templatesAlt {
+  background-color: #2ecc71;
+  align-items: center;
+  width: 100%;
+  color: #c0392b;
+}
+
 .tempHeading {
   font-family: "Product Sans", sans-serif;
   display: flex;
@@ -177,6 +184,13 @@ body {
 .documents {
   padding: 20px;
   width: 100%;
+}
+
+.documentsAlt {
+  padding: 20px;
+  width: 100%;
+  background-color: #fbbc05;
+  color: #45aaf2;
 }
 
 .docuHeader {
@@ -261,3 +275,34 @@ body {
   display: flex;
   gap: 5px;
 }
+
+.toggleContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+/* display: grid;
+grid-template-coloums: repeat(4, 300px) */
+
+/* .toggleLight {
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-family: "Product Sans", sans-serif;
+  border: 0;
+  background-color: #ffecb4;
+  color: #515151;
+}
+
+.toggleDark {
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-family: "Product Sans", sans-serif;
+  border: 0;
+  background-color: #102c44;
+  color: #f8f4f4;
+} */
